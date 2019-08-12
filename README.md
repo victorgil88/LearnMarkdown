@@ -185,8 +185,10 @@ Con Markdown se puede mezclar código HTML.
 
 Código HTML:  
 
-\<a href="http://www.google.com">*Google*</a>  
-\<a href="http://www.google.com">Google</a>  
+\<a href="http://www.google.com">*Google*
+\</a>  
+\<a href="http://www.google.com">Google
+\</a>  
 
 Resultado HTML:  
 <a href="http://www.google.com">*Google*</a>  
@@ -197,7 +199,8 @@ Resultado HTML:
 Código de HTML en bloque de código:  
 \```  
     asdf asdf asdf asdf  
-\<a href="http://www.google.com">Google</a>  
+\<a href="http://www.google.com">Google
+\</a>  
 \```  
 
 
