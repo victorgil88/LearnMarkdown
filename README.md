@@ -181,22 +181,9 @@ Se pueden crear bloques de código de dos formas: con 4 espacios en blanco o con
 Con Markdown se puede mezclar código HTML.
 
 
-### Ejemplo código HTML:  
+### Ejemplo bloques de código:
 
-Código HTML:  
-
-\<a href="http://www.google.com">*Google*
-\</a>  
-\<a href="http://www.google.com">Google
-\</a>  
-
-Resultado HTML:  
-<a href="http://www.google.com">*Google*</a>  
-<a href="http://www.google.com">Google</a>
-
-### Ejemplo código HTML con bloques de código:
-
-Código de HTML en bloque de código:  
+Código de bloque de código:  
 \```  
     asdf asdf asdf asdf  
 \<a href="http://www.google.com">Google
@@ -204,7 +191,7 @@ Código de HTML en bloque de código:
 \```  
 
 
-Resultado de HTML en bloque de código: 
+Resultado de bloque de código: 
 ```
     asdf asdf asdf asdf  
 <a href="http://www.google.com">Google</a>
@@ -354,15 +341,16 @@ Código de tabla:
 |Texto L|  
    
 
-Resultado: 
-|Las   |tablas   |son   |fáciles
+Resultado:  
+
+|Las   |tablas   |son   |fáciles   
 |-----:|:-----|:-----:|-----
-|Texto A |**Texto B** |_Texto C_ |Texto D
-|Texto A |*Texto B* |__Texto C__ |Texto D
-|# Hola
-|Texto E |Texto F|Texto G
-|Texto H|Texto I|Texto J|Texto K|
-|Texto L|
+|Texto A |**Texto B** |_Texto C_ |Texto D|  
+|Texto A |*Texto B* |__Texto C__ |Texto D|  
+|# Hola|
+|Texto E |Texto F|Texto G||  
+|Texto H|Texto I|Texto J|Texto K|  
+|Texto L||  
 
 
 ---
@@ -371,9 +359,25 @@ Resultado:
 ## HTML con Markdown
 Se puede insertar código HTML en un archivo de Markdown.
 
+
+### Ejemplo código HTML:  
+
+Código HTML:  
+
+\<a href="http://www.google.com">*Google*
+\</a>  
+\<a href="http://www.google.com">Google
+\</a>  
+
+Resultado HTML:  
+<a href="http://www.google.com">*Google*</a>  
+<a href="http://www.google.com">Google</a>
+
+
 ### Ejemplo de HTML + Markdown
 
 Código:
+
 \<style>  
 .pipe {  
     color: yellow;  
@@ -393,6 +397,7 @@ Código:
 \<div class="pipe" style="border: solid black 2px; background-color: grey">Hola mundo\</div>
 
 Resultado:
+
 <style>
 .pipe {
     color: yellow;
