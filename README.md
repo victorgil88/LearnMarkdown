@@ -1,5 +1,7 @@
 # Learn Markdown in Markdown
 
+A continuacin se muestra una lista de algunas de las posibilidades que ofrece Markdown para trabajar con él.
+
 ## Salto a otro párrafo
 Botón intro. El HTML producido es \<p></p>
 
@@ -61,10 +63,14 @@ Negrita: Dos guiones bajos o dos ** antes y después. El HTML producido es \<str
 
 ### Ejemplo
 
-\_\_Hola mundo__ o \*\*Hola mundo** producen: **Hola mundo**  
-\_Hola mundo_  o \*Hola mundo* producen: *Hola mundo*  
-\_\*\*Ho\*\*la mundo_ produce: _**Ho**la mundo_  
-Hola \_\*\*mun**do_ produce: Hola _**mun**do_  
+\_\_Hola mundo__ o \*\*Hola mundo**  
+**Hola mundo**  
+\_Hola mundo_  o \*Hola mundo*  
+*Hola mundo*  
+\_\*\*Ho\*\*la mundo_  
+_**Ho**la mundo_  
+Hola \_\*\*mun**do_  
+Hola _**mun**do_  
 
 ---
 ---
