@@ -215,6 +215,8 @@ Resultado:
 ## Bloques de código
 Se pueden crear bloques de código de dos formas: con 4 espacios en blanco o con  ```  ´´´. El HTML producido es \<pre>\<code>\</code>\</pre>.  
 Con Markdown se puede mezclar código HTML.
+Después de las 3 ` se puede especificar el lenguaje para que Markdown lo interprete.
+
 
 
 ### Ejemplo bloques de código:
@@ -232,6 +234,30 @@ Resultado de bloque de código:
     asdf asdf asdf asdf  
 <a href="http://www.google.com">Google</a>
 ```
+
+Código:  
+\```javascript  
+var s = "JavaScript syntax highlighting";  
+alert(s);  
+\```  
+   
+\```python  
+s = "Python syntax highlighting"  
+print s  
+\```  
+
+Resultado:  
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+
 
 ---
 ---
