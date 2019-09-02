@@ -211,6 +211,44 @@ Resultado:
 ---
 ---
 
+## Listas encadenadas   
+Se puede crear una lista donde cada elemento de la lista es otra lista.  
+Para encadenar listas, en la segunda lista tiene que haber al menos dos tabulaciones.  
+
+Código:
+```
+1. Lista de la compra
+     - Manzana
+       - Pera  
+```
+
+Resultado:
+
+1. Lista de la compra
+     - Manzana
+       - Pera  
+  
+---  
+--- 
+
+## Lista de tareas
+Se pueden crear listas de tareas.  
+  
+Código:
+```
+- [x] Leer
+- [X] Escribir
+- [ ] Aprender
+```
+
+Resultado:
+- [x] Leer
+- [X] Escribir
+- [ ] Aprender
+
+
+---
+---
 
 ## Bloques de código
 Se pueden crear bloques de código de dos formas: con 4 espacios en blanco o con  ```  ´´´. El HTML producido es \<pre>\<code>\</code>\</pre>.  
