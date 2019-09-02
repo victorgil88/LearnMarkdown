@@ -6,9 +6,17 @@ A continuacin se muestra una lista de algunas de las posibilidades que ofrece Ma
 Botón intro. El HTML producido es \<p></p>
 
 ### Ejemplo:
+
+```
 Hola
 
 mundo  
+```
+
+Hola
+
+mundo  
+
 
 ---
 ---
@@ -17,8 +25,14 @@ mundo
 Dos espacios después del texto y luego intro. El HTML producido es \<br>
 
 ### Ejemplo:
+```
 Hola ¿qué tal?  
 Bien
+```  
+
+Hola ¿qué tal?  
+Bien
+
 
 ---
 ---
@@ -31,7 +45,9 @@ Otra alternativa es poner === debajo del texto \<h1> o --- debajo del texto \<h2
 ### Ejemplo:
 
 Código:  
-\###### Ejemplo de \<h5>  
+```
+###### Ejemplo de <h5>  
+```
 Resultado:
 ###### Ejemplo de \<h5>  
 
@@ -46,12 +62,17 @@ Ejemplo de \<h1>
 
 
 Código:  
-Ejemplo de \<h2>  
-\----  
+```
+Ejemplo de <h2>  
+----  
+```
 
 Resultado:
 Ejemplo de \<h2>
 ----
+
+<br>
+</br>  
 
 ---
 ---
@@ -62,15 +83,27 @@ Cursiva: Guión bajo para cursiva o * antes y después. El HTML producido es \<e
 Negrita: Dos guiones bajos o dos ** antes y después. El HTML producido es \<strong>\</strong> o \<b>\</b>
 
 ### Ejemplo
-
-\_\_Hola mundo__ o \*\*Hola mundo**  
+```
+__Hola mundo__ o **Hola mundo**  
+```
 **Hola mundo**  
-\_Hola mundo_  o \*Hola mundo*  
+```
+_Hola mundo_  o *Hola mundo*  
+```
 *Hola mundo*  
-\_\*\*Ho\*\*la mundo_  
+```
 _**Ho**la mundo_  
-Hola \_\*\*mun**do_  
+```
+_**Ho**la mundo_  
+```
 Hola _**mun**do_  
+```
+Hola _**mun**do_  
+
+```
+~Hola mundo~
+```
+~Hola mundo~
 
 ---
 ---
@@ -95,10 +128,11 @@ Se usa crear citas en bloque. En Markdown se usa \> y se pueden encadenar varios
 
 ### Ejemplo:
 
-Código:  
-\> ### Ejemplo de una cita  
-\>> Esta es la **cita**  
-
+Código: 
+```
+> ### Ejemplo de una cita  
+>> Esta es la **cita**  
+```
 Resultado:
 > ### Ejemplo de una cita  
 >> Esta es la **cita**  
@@ -114,17 +148,19 @@ El HTML producido para una lista desordenada (*, +, -) es \<ul> \<li>\</li> \<li
 
 ### Ejemplo lista desordenada:
 Código:  
-\* \*\*Manzana**  
-\* \*Pera*  
-\* Fresa  
+```
+* **Manzana**  
+* *Pera*  
+* Fresa  
   
-\- \*\*Manzana**  
-\- \*Pera*  
-\- Fresa  
+- **Manzana**  
+- *Pera*  
+- Fresa  
   
-\+ \*\*Manzana**  
-\+ \*Pera*  
-\+ Fresa  
++ **Manzana**  
++ *Pera*  
++ Fresa  
+```
 
 Resultado:  
 * **Manzana**  
@@ -143,19 +179,19 @@ Resultado:
 ### Ejemplo lista ordenada:
 
 Código:  
+```
+22. **Manzana**  
+21. *Pera*  
+21. Fresa
 
-\22. \*\*Manzana**  
-\21. \*Pera*  
-\21. Fresa
+9. **Melón**  
+10. *Sandía*  
+11. Plátano  
 
-\9. \*\*Melón**  
-\10. \*Sandía*  
-\11. Plátano  
-
-\4. \*\*Melocotón**  
-\5. \*Uva*  
-\6. \> Piña
-  
+4. **Melocotón**  
+5. *Uva*  
+6. > Piña
+```
   
 Resultado:  
 
@@ -206,11 +242,13 @@ Se pueden crear líneas horizontales poniendo al menos 3 de los siguientes símb
 
 ### Ejemplo de líneas horizontales:
 
-Código:  
-\* * *  
-\***  
-\- - -  
-\---  
+Código: 
+```
+* * *  
+***  
+- - -  
+---  
+```
 
 Resultado:
 * * *
@@ -230,24 +268,30 @@ Resultado:
 Existen dos formas de poner links. Inline o por referencia.  
 
 Inline:  
-\[Título]\(link "Etiqueta")  
-  
+```
+[Título](link "Etiqueta")  
+```
+
 Referencia:  
 [Título]:link "Etiqueta"  
 Texto [Título]
 
 ### Ejemplo de link inline
 
-Código:  
-Esto es un ejemplo \[Google](https:www.google.com "Buscador") de link Inline.  
+Código: 
+```
+Esto es un ejemplo [Google](https:www.google.com "Buscador") de link Inline.  
+```
 
 Resultado:  
 Esto es un ejemplo [Google](https:www.google.com "Buscador") de link Inline.  
 
 ### Ejemplo de link por referencia
 Código:  
-Esto es un ejemplo \[Google] de link por referencia.  
-\[Google]:https:www.google.com "Buscador" 
+```
+Esto es un ejemplo [Google] de link por referencia.  
+[Google]:https:www.google.com "Buscador" 
+```
 
 Resultado:  
 Esto es un ejemplo [Google] de link por referencia.  
@@ -262,9 +306,11 @@ Esto es un ejemplo [Google] de link por referencia.
 Se pueden escribir links automáticos sin necesitad de hacer el paso previo solo escribiendo el link. En el caso de email hay que meterlo dentro de \<>. El HTML producido es el mismo que en el ejemplo anterior.
 
 ### Ejemplo link automático
-Código:  
+Código: 
+```
 Visita www.google.com  
-Envía a \<asdf@asdf.com>
+Envía a <asdf@asdf.com>
+```
 
 Resultado:  
 Visita www.google.com  
@@ -279,8 +325,10 @@ Las imágenes se insertan igual que un link pero con ! delante. Tanto con Inline
 
 ### Ejemplo imagen Inline
 
-Código:  
-\!\[google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Logo")
+Código: 
+```
+![google](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Logo")
+```
 
 Resultado:
 
@@ -289,11 +337,11 @@ Resultado:
 ### Ejemplo imagen con referencia
 
 Código:
+```
+Google ![googlelogo]
 
-Google \!\[googlelogo]
-
-\[googlelogo]:https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Logo"
-
+[googlelogo]:https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png "Logo"
+```
 
 Resultado:
 
@@ -314,7 +362,9 @@ Se puede escribir código sin necesidad de usar bloques de código, es decir, in
 ### Ejemplo de código inline
 
 Código:  
-Ejemplo de \`print()\` de \`código\`
+```
+Ejemplo de `print()` de `código`
+```
 
 Resutado:  
 Ejemplo de `print()` de `código`
@@ -330,16 +380,17 @@ El HTML producido es \<table>\<thead>\</thead>\<tbody>\<tr>\<td>\</td>\<td>\</td
 
 ### Ejemplo de tabla
 
-Código de tabla:  
+Código de tabla: 
+```
 |Las   |tablas   |son   |fáciles  
-\|-----:|:-----|:-----:|-----  
-|Texto A |\*\*Texto B** |\_Texto C_ |Texto D  
-|Texto A |\*Texto B* |\_\_Texto C__ |Texto D  
+|-----:|:-----|:-----:|-----  
+|Texto A |**Texto B** |_Texto C_ |Texto D  
+|Texto A |*Texto B* |__Texto C__ |Texto D  
 | Hola  
 |Texto E |Texto F|Texto G  
 |Texto H|Texto I|Texto J|Texto K|  
 |Texto L|  
-   
+```
 
 Resultado:  
 
@@ -363,11 +414,12 @@ Se puede insertar código HTML en un archivo de Markdown.
 ### Ejemplo código HTML:  
 
 Código HTML:  
-
-\<a href="http://www.google.com">*Google*
-\</a>  
-\<a href="http://www.google.com">Google
-\</a>  
+```
+<a href="http://www.google.com">*Google*
+</a>  
+<a href="http://www.google.com">Google
+</a>  
+```
 
 Resultado HTML:  
 <a href="http://www.google.com">*Google*</a>  
