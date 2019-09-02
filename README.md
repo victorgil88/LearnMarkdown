@@ -17,9 +17,8 @@ Hola
 
 mundo  
 
-
----
----
+<br>
+</br>
 
 ## Salto de línea
 Dos espacios después del texto y luego intro. El HTML producido es \<br>
@@ -34,8 +33,8 @@ Hola ¿qué tal?
 Bien
 
 
----
----
+<br>
+</br>
 
 
 ## Encabezados
@@ -74,8 +73,6 @@ Ejemplo de \<h2>
 <br>
 </br>  
 
----
----
 
 
 ## Enfasis
@@ -105,8 +102,8 @@ Hola _**mun**do_
 ```
 ~Hola mundo~
 
----
----
+<br>
+</br>
 
 
 ## Saltar simbolos que normalmente tiene significado en Markdown
@@ -119,9 +116,8 @@ Sino se pusiera saldría los siguiente:
 ###### Hola mundo  
 En el código de este documento aparece ampliamente usado para mostrar el resultado que se ve.
 
----
----
-
+<br>
+</br>
 
 ## Blockquotes
 Se usa crear citas en bloque. En Markdown se usa \> y se pueden encadenar varios. El HTML producido es \<blockquote>\</blockquote>
@@ -137,8 +133,8 @@ Resultado:
 > ### Ejemplo de una cita  
 >> Esta es la **cita**  
 
----
----
+<br>
+</br>
 
 
 ## Listas
@@ -208,8 +204,8 @@ Resultado:
 6. > Piña  
 
 
----
----
+<br>
+</br>
 
 ## Listas encadenadas   
 Se puede crear una lista donde cada elemento de la lista es otra lista.  
@@ -228,8 +224,8 @@ Resultado:
      - Manzana
        - Pera  
   
----  
---- 
+<br>
+</br>
 
 ## Lista de tareas
 Se pueden crear listas de tareas.  
@@ -247,8 +243,9 @@ Resultado:
 - [ ] Aprender
 
 
----
----
+<br>
+</br>
+
 
 ## Bloques de código
 Se pueden crear bloques de código de dos formas: con 4 espacios en blanco o con  ```  ´´´. El HTML producido es \<pre>\<code>\</code>\</pre>.  
@@ -295,10 +292,8 @@ s = "Python syntax highlighting"
 print s
 ```
 
-
-
----
----
+<br>
+</br>
 
 
 ## Línea horizontal
@@ -323,10 +318,6 @@ Resultado:
 
 <br>
 </br>
-
-
----
----
 
 ## Links
 Existen dos formas de poner links. Inline o por referencia.  
@@ -362,8 +353,9 @@ Esto es un ejemplo [Google] de link por referencia.
 
 [Google]:https:www.google.com "Buscador" 
 
----
----
+  
+<br>
+</br>
 
 
 ## Links automáticos
@@ -380,8 +372,8 @@ Resultado:
 Visita www.google.com  
 Envía a \<asdf@asdf.com>
 
----
----
+<br>
+</br>
 
 
 ## Imágenes
@@ -415,8 +407,8 @@ Google ![googlelogo]
 
  
 
----
----
+<br>
+</br>
 
 
 
@@ -433,8 +425,8 @@ Ejemplo de `print()` de `código`
 Resutado:  
 Ejemplo de `print()` de `código`
 
----
----
+<br>
+</br>
 
 ## Tablas
 Para crear tablas se usan | para delimitar las columnas de la misma.  
@@ -467,9 +459,8 @@ Resultado:
 |Texto H|Texto I|Texto J|Texto K|  
 |Texto L||  
 
-
----
----
+<br>
+</br>
 
 ## HTML con Markdown
 Se puede insertar código HTML en un archivo de Markdown.
