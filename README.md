@@ -261,14 +261,13 @@ Después de las 3 ` se puede especificar el lenguaje para que Markdown lo interp
 ### Ejemplo bloques de código:
 
 Código de bloque de código:  
-```Markdown
-```  
+ 
+\```  
     asdf asdf asdf asdf  
 <a href="http://www.google.com">Google
 </a>  
-```  
+\```  
 
-```  
 
 Resultado de bloque de código: 
 ```
