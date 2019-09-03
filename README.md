@@ -262,11 +262,11 @@ Después de las 3 ` se puede especificar el lenguaje para que Markdown lo interp
 
 Código de bloque de código:  
 ```  
-```  
+\```  
     asdf asdf asdf asdf  
 <a href="http://www.google.com">Google
 </a>  
-```  
+\```  
 ```  
 
 Resultado de bloque de código: 
@@ -280,14 +280,14 @@ Código:
 ```javascript  
 var s = "JavaScript syntax highlighting";  
 alert(s);  
-```  
+\```  
 ```  
    
 ```  
-```python  
+\```python  
 s = "Python syntax highlighting"  
 print s  
-```  
+\```  
 ```  
 
 Resultado:  
