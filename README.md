@@ -30,7 +30,7 @@ Bien
 ```  
 
 Hola ¿qué tal?  
-Bien
+Bien  
 
 
 <br>
@@ -47,15 +47,17 @@ Código:
 ```
 ###### Ejemplo de <h5>  
 ```
-Resultado:
+Resultado:  
 ###### Ejemplo de \<h5>  
 
 
 Código:  
-Ejemplo de \<h1>  
-\====  
+```
+Ejemplo de <h1>  
+====  
+```
 
-Resultado:
+Resultado:  
 Ejemplo de \<h1>  
 ====
 
@@ -66,12 +68,12 @@ Ejemplo de <h2>
 ----  
 ```
 
-Resultado:
+Resultado:  
 Ejemplo de \<h2>
 ----
 
 <br>
-</br>  
+</br>
 
 
 
@@ -111,7 +113,9 @@ La barra \ salta símbolos que normalmente tienen significado en Markdown. Tambi
 
 ### Ejemplo de \ (Backslash)
 Para poder mostrar la # en la siguiente línea es necesario poner \ y así no se intrepretará como un \<h6>  
+  
 \\###### Hola mundo  
+  
 Sino se pusiera saldría los siguiente:  
 ###### Hola mundo  
 En el código de este documento aparece ampliamente usado para mostrar el resultado que se ve.
@@ -257,12 +261,13 @@ Después de las 3 ` se puede especificar el lenguaje para que Markdown lo interp
 ### Ejemplo bloques de código:
 
 Código de bloque de código:  
-\```  
+```  
+```  
     asdf asdf asdf asdf  
-\<a href="http://www.google.com">Google
-\</a>  
-\```  
-
+<a href="http://www.google.com">Google
+</a>  
+```  
+```  
 
 Resultado de bloque de código: 
 ```
@@ -271,15 +276,19 @@ Resultado de bloque de código:
 ```
 
 Código:  
-\```javascript  
+```  
+```javascript  
 var s = "JavaScript syntax highlighting";  
 alert(s);  
-\```  
+```  
+```  
    
-\```python  
+```  
+```python  
 s = "Python syntax highlighting"  
 print s  
-\```  
+```  
+```  
 
 Resultado:  
 ```javascript
@@ -328,12 +337,14 @@ Inline:
 ```
 
 Referencia:  
+```  
 [Título]:link "Etiqueta"  
 Texto [Título]
+```  
 
 ### Ejemplo de link inline
 
-Código: 
+Código:  
 ```
 Esto es un ejemplo [Google](https:www.google.com "Buscador") de link Inline.  
 ```
@@ -362,7 +373,7 @@ Esto es un ejemplo [Google] de link por referencia.
 Se pueden escribir links automáticos sin necesitad de hacer el paso previo solo escribiendo el link. En el caso de email hay que meterlo dentro de \<>. El HTML producido es el mismo que en el ejemplo anterior.
 
 ### Ejemplo link automático
-Código: 
+Código:  
 ```
 Visita www.google.com  
 Envía a <asdf@asdf.com>
@@ -492,7 +503,7 @@ Código:
 </dl>
 ```  
 
-Resultado:
+Resultado:  
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
