@@ -264,8 +264,8 @@ Código de bloque de código:
  
 \```  
     asdf asdf asdf asdf  
-<a href="http://www.google.com">Google
-</a>  
+\<a href="http://www.google.com">Google
+\</a>  
 \```  
 
 
