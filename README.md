@@ -1,6 +1,6 @@
 # Aprende Markdown en Markdown
 
-A continuacin se muestra una lista de algunas de las posibilidades que ofrece Markdown para trabajar con él.
+A continuación se muestra una lista de algunas de las posibilidades que ofrece Markdown para trabajar con él.
 
 ## Salto a otro párrafo
 Botón intro. El HTML producido es \<p></p>
